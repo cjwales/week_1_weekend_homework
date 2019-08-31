@@ -35,8 +35,6 @@ def pets_by_breed(pet_shop, breed)
 end
 
 def find_pet_by_name(pet_shop, name)
-  specified_name = []
-
   for pet in pet_shop[:pets]
     if pet[:name] == name
       return pet
